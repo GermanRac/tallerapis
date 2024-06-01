@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Modificar Producto</title>
+</head>
+<body>
+  <h1>Modificar Producto</h1>
+  <form id="modificarProductoForm">
+    <label for="productId">ID del Producto:</label>
+    <input type="text" id="productId" name="productId" required>
+
+    <label for="cantidad">Nueva Cantidad:</label>
+    <input type="number" id="cantidad" name="cantidad" required>
+
+    <label for="precio">Nuevo Precio:</label>
+    <input type="number" id="precio" name="precio" step="0.01" required>
+
+    <button type="submit">Actualizar Producto</button>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>
